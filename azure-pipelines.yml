@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'EYFSOAdvisory/Tailspin.Web.Models'
+    publishVstsFeed: 'Advanced Engineering/Tailspin.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
